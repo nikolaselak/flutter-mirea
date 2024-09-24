@@ -1,16 +1,11 @@
-# project_name
+# Программирование корпоративных систем
 
-A new Flutter project.
+## 3 работа
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/e954de2c-3c9c-435c-afa3-c70fcd54e0be)
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/user-attachments/assets/39122f86-394e-4482-9ebb-6ffcfd8492fe)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/b0a69fd1-e8b2-4fe6-b039-631e66dbd10a)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/756276d6-0b8c-4e45-aaf0-09875d635a9a)
