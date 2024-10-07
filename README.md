@@ -10,3 +10,5 @@
 * [flutter_app_3](flutter_app_3/README.md)
 
 * [flutter_app_4](flutter_app_4/README.md)
+
+* [flutter_app_5](flutter_app_5/README.md)
