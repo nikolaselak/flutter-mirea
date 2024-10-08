@@ -24,60 +24,72 @@ class Item extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.all(15.0),
+      margin: const EdgeInsets.all(10.0),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.blueAccent, width: 3),
+        color: Colors.white,
         borderRadius: BorderRadius.circular(15),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.3),
+            spreadRadius: 2,
+            blurRadius: 7,
+            offset: const Offset(0, 3),
+          ),
+        ],
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Stack(
             children: [
-              Image.network(imgLink),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.network(
+                  imgLink,
+                  height: 150,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                ),
+              ),
               Positioned(
-                top: 0,
-                right: 0,
+                top: 5,
+                right: 5,
                 child: IconButton(
                   icon: Icon(
                     isFavorite ? Icons.favorite : Icons.favorite_border,
                     color: isFavorite ? Colors.red : Colors.grey,
+                    size: 28,
                   ),
                   onPressed: onFavoriteToggle,
                 ),
               ),
             ],
           ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              '$price ₽',
-              style: const TextStyle(
-                color: Colors.green,
-                fontSize: 26,
-                fontWeight: FontWeight.w600,
-              ),
+          const SizedBox(height: 10),
+          Text(
+            '$price ₽',
+            style: const TextStyle(
+              color: Colors.green,
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
             ),
           ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              brand,
-              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          const SizedBox(height: 5),
+          Text(
+            title,
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w500,
             ),
           ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              title,
-              style: const TextStyle(fontSize: 20),
-            ),
-          ),
+          const SizedBox(height: 10),
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
+                padding: const EdgeInsets.symmetric(vertical: 12),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15),
                 ),
@@ -98,7 +110,7 @@ class Item extends StatelessWidget {
               },
               child: const Text(
                 'Узнать больше',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(fontSize: 16, color: Colors.white),
               ),
             ),
           ),
