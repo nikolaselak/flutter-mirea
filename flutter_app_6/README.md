@@ -1,16 +1,17 @@
-# project_name
+# Программирование корпоративных систем
 
-A new Flutter project.
+Дисциплина: Программирование корпоративных систем
+Семестр: 5
+Выполнил студент ЭФБО-01-22 Селакович Н.
 
-## Getting Started
+## Содержание работы
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/user-attachments/assets/3d7f217d-3ad8-4b6a-a3d5-6121871d2245)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/fa424eb6-bbaf-4185-b857-e38688a2be2c)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://github.com/user-attachments/assets/cc18ab00-2546-4725-8f35-68e4d52d363c)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/b616f874-ec23-47db-82e6-1cf6b1863748)
+
+![image](https://github.com/user-attachments/assets/fbd3d1eb-4975-40b1-93e5-3792cfc9b368)
