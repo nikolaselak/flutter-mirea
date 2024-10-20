@@ -44,7 +44,6 @@ class CartProductItem extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              // Блок с ценой
               Text(
                 '${cartItem.product.price} ₽',
                 style: const TextStyle(
@@ -52,15 +51,13 @@ class CartProductItem extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              // Блок с количеством и счетчиком
               Row(
                 children: [
                   Text(
                     '${cartItem.quantity} пациент',
                     style: const TextStyle(fontSize: 14, color: Colors.grey),
                   ),
-                  const SizedBox(
-                      width: 8), // Для отступа между текстом и иконками
+                  const SizedBox(width: 8),
                   IconButton(
                     onPressed: onDecreaseQuantity,
                     icon: const Icon(Icons.remove),
