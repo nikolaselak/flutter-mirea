@@ -19,4 +19,4 @@
 
 * [flutter_app_8](flutter_app_8/README.md)
 
-* [frontend](frontend/README.md)
+* [flutter_app_9](flutter_app_9/frontend/README.md)
